@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="BagMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="PokeMenu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Cave.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PokeCenter.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Poke1.h">
+      <Filter>Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Poke4.h">
+      <Filter>Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Poke7.h">
+      <Filter>Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Pokemon.h">
+      <Filter>Pokemon</Filter>
+    </ClInclude>
+    <ClInclude Include="Town.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Evolution.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="BagMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="PokeMenu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Battle.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Cave.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PokeCenter.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Poke1.cpp">
+      <Filter>Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Poke4.cpp">
+      <Filter>Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Poke7.cpp">
+      <Filter>Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>Pokemon</Filter>
+    </ClCompile>
+    <ClCompile Include="Town.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Evolution.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{c14ca034-37f6-48e0-9228-36fcd598f2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pokemon">
+      <UniqueIdentifier>{e73b8dfa-29a9-4aea-b8ca-f43ebe308652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{1d8251dd-7947-4898-832c-3fd7a5da01b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{ed36d2f5-64b5-4135-9baa-aa5b034dfd13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{c470608a-2d6e-4389-9c16-e50ca8b9c649}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

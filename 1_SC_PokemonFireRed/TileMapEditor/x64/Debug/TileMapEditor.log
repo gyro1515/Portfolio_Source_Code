@@ -1,0 +1,8 @@
+﻿  Main.cpp
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(3,1): error C2504: 'Scene': 기본 클래스를 정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(6,15): error C3668: 'Main::Init': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(7,15): error C3668: 'Main::Release': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(8,15): error C3668: 'Main::Update': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(9,15): error C3668: 'Main::LateUpdate': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(10,15): error C3668: 'Main::Render': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.
+D:\LeeChaeYeon\eight\Framework\TileMapEditor\Main.h(11,15): error C3668: 'Main::ResizeScreen': 재정의 지정자 'override'가 있는 메서드가 기본 클래스 메서드를 재정의하지 않았습니다.

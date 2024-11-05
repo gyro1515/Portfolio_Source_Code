@@ -1,0 +1,4 @@
+﻿  CharacterA.cpp
+C:\Users\LEE\Desktop\게임 개발\과제\2023_5_게임과제0519집\2023_5_게임과제0521새벽\2023_5_게임과제\2023_5_게임과제\CharacterA.cpp(145,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\LEE\Desktop\게임 개발\과제\2023_5_게임과제0519집\2023_5_게임과제0521새벽\2023_5_게임과제\2023_5_게임과제\CharacterA.cpp(148,22): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+  2023_5_게임과제.vcxproj -> C:\Users\LEE\Desktop\게임 개발\과제\2023_5_게임과제0519집\2023_5_게임과제0521새벽\2023_5_게임과제\Debug\2023_5_게임과제.exe

@@ -1,0 +1,43 @@
+﻿  Camera.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Camera.cpp(37,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Direct3D11.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Direct3D11.cpp(306,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  DWrite.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\DWrite.cpp(177,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  GameObject.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\GameObject.cpp(297,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Gui.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Gui.cpp(112,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Input.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Input.cpp(80,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Light.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Light.cpp(46,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObCircle.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObCircle.cpp(126,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObImage.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObImage.cpp(282,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObLine.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObLine.cpp(69,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObRect.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObRect.cpp(139,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObStar.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObStar.cpp(33,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  ObTileMap.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\ObTileMap.cpp(572,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Random.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Random.cpp(27,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  SceneManager.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\SceneManager.cpp(126,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Shader.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Shader.cpp(108,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Sound.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Sound.cpp(162,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Texture.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Texture.cpp(68,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Timer.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Timer.cpp(64,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Utility.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Utility.cpp(184,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  컴파일하고 있습니다...
+  Window.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\2DFrameWork\Window.cpp(221,1): fatal error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?

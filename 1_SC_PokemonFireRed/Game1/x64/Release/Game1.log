@@ -1,0 +1,287 @@
+﻿  BagMenu.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\BagMenu.cpp(429,44): warning C4267: '=': 'size_t'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Battle.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(170,55): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(572,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(595,44): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(609,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(645,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(795,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(824,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(856,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(888,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(923,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(936,65): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(963,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(996,15): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1002,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1007,97): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1009,97): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1011,97): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1013,97): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1014,89): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1492,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1605,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(1970,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2009,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2156,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2169,64): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2200,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2226,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2240,65): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Battle.cpp(2267,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Cave.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(61,56): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(333,60): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(374,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(421,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(458,60): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(530,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Cave.cpp(540,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Item.cpp
+  Main.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(47,10): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(95,25): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(100,25): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(152,71): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(153,79): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(154,71): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(155,79): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(156,71): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(157,79): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(158,71): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Main.cpp(159,63): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player.cpp
+  Poke1.cpp
+  Poke4.cpp
+  Poke7.cpp
+  PokeCenter.cpp
+  PokeMenu.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\PokeMenu.cpp(1691,65): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Pokemon.cpp
+  Shop.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(65,56): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(255,15): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(261,8): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(266,95): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(268,95): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(270,95): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(272,95): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(273,87): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(442,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(445,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(447,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(449,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(451,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(452,66): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(457,13): warning C4244: '=': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(460,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(461,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(462,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(463,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(464,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(465,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(466,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(467,66): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(472,13): warning C4244: '=': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(474,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(475,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(476,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(477,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(478,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(479,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(480,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(481,66): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(490,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(496,9): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(501,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(503,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(505,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(507,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(508,88): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(523,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(529,9): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(541,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(543,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(545,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(547,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(548,88): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(558,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(564,9): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(569,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(571,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(573,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(575,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(576,88): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(671,42): warning C4267: '=': 'size_t'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(742,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(749,13): warning C4244: '=': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(752,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(753,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(754,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(755,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(756,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(757,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(758,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(759,66): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(764,13): warning C4244: '=': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(766,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(767,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(768,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(769,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(770,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(771,82): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(772,74): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(773,66): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(783,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(789,9): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(794,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(796,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(798,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(800,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(801,88): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(816,16): warning C4244: '초기화 중': 'float'에서 'long'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(826,9): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(843,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(845,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(847,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(849,96): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(850,88): warning C4244: '인수': 'long'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(971,60): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1012,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1059,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1096,59): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1173,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1183,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1414,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1454,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1658,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Shop.cpp(1686,7): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  Skill.cpp
+  Town.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(139,56): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(558,60): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(599,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(640,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(678,63): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(789,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(799,6): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Game1\Town.cpp(1009,18): warning C4566: 유니버설 문자 이름 '\u00E9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+2DFrameWork.lib(ObImage.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObImage.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObImage.obj) : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+2DFrameWork.lib(DWrite.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(DWrite.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Window.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Window.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Sound.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Sound.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Timer.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Timer.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Input.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Input.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(GameObject.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(GameObject.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(SceneManager.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(SceneManager.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Random.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Random.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Camera.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Camera.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Light.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Light.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObTileMap.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObTileMap.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Utility.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Utility.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Direct3D11.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Direct3D11.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Texture.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Texture.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Shader.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Shader.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Gui.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(Gui.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObRect.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObRect.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObCircle.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObCircle.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObLine.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+2DFrameWork.lib(ObLine.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+msvcprtd.lib(locale0_implib.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexImage.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexImage.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexWIC.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexWIC.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexD3D11.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexUtil.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexUtil.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexConvert.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexConvert.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexCompress.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(DirectXTexCompress.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC4BC5.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC4BC5.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC6HBC7.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+DirectXTex.lib(BC6HBC7.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2038: '_ITERATOR_DEBUG_LEVEL'에 대해 불일치가 검색되었습니다. '2' 값이 '0'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2038: 'RuntimeLibrary'에 대해 불일치가 검색되었습니다. 'MDd_DynamicDebug' 값이 'MD_DynamicRelease'(BagMenu.obj에 위치) 값과 일치하지 않습니다.
+     C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\x64\Release\Game1.lib 라이브러리 및 C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\x64\Release\Game1.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'MSVCRTD' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(SceneManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(ObTileMap.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(DWrite.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+2DFrameWork.lib(Sound.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__invalid_parameter
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObRect.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObCircle.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObLine.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Utility.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Camera.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Light.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObTileMap.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Timer.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Input.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(SceneManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(DWrite.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+2DFrameWork.lib(Sound.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__calloc_dbg
+DirectXTex.lib(DirectXTexMipMaps.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+example_win32_directx11.lib(ImGuiFileDialog.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Direct3D11.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Texture.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Shader.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Gui.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(GameObject.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(SceneManager.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Random.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(ObTileMap.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(ObImage.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(DWrite.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Window.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+2DFrameWork.lib(Sound.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__CrtDbgReport
+msvcprtd.lib(locale0_implib.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__free_dbg
+msvcprtd.lib(locale0_implib.obj) : error LNK2001: 확인할 수 없는 외부 기호 __imp__malloc_dbg
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\x64\Release\Game1.exe : fatal error LNK1120: 5개의 확인할 수 없는 외부 참조입니다.

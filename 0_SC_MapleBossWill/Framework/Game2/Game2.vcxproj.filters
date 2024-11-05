@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\Game1\Attack1.h">
+      <Filter>Will</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game1\Will.h">
+      <Filter>Will</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Game1\Map.h" />
+    <ClInclude Include="Attack2.h">
+      <Filter>Will</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="..\Game1\Attack1.cpp">
+      <Filter>Will</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game1\Will.cpp">
+      <Filter>Will</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Game1\Map.cpp" />
+    <ClCompile Include="Attack2.cpp">
+      <Filter>Will</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Will">
+      <UniqueIdentifier>{53657a4b-684f-4535-9b18-f5f8cd306e09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

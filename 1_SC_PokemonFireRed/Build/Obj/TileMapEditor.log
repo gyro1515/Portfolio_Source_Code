@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\\Build\Obj\)에 다른 프로젝트(Game1.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Main.cpp
+     C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\\Build\TileMapEditor.lib 라이브러리 및 C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\\Build\TileMapEditor.exp 개체를 생성하고 있습니다.
+  TileMapEditor.vcxproj -> C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\230927_school_Framework\Framework\Build\TileMapEditor.exe

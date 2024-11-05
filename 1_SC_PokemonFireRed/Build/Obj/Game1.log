@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 중간 디렉터리(C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\\Build\Obj\)에 다른 프로젝트(Game2.vcxproj, TileMapEditor.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Town.cpp
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\Game1\Town.cpp(169,56): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\Game1\Town.cpp(1070,18): warning C4566: 유니버설 문자 이름 '\u00E9'(으)로 표현되는 문자는 현재 코드 페이지(949)에서 표현할 수 없습니다.
+     C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\\Build\Game1.lib 라이브러리 및 C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\\Build\Game1.exp 개체를 생성하고 있습니다.
+  Game1.vcxproj -> C:\Users\gyro1\OneDrive\바탕 화면\GameCode\9_Portfolio\231002_out_Framework\Framework\Build\Game1.exe
