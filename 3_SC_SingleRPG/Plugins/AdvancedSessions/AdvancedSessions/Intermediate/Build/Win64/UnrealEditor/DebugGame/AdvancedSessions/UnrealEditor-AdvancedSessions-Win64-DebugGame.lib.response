@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AdvancedSessions-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Intermediate\Build\Win64\SteamSessionsEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\DebugGame\AdvancedSessions\Module.AdvancedSessions.1_of_3.cpp.obj"
+"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\DebugGame\AdvancedSessions\Module.AdvancedSessions.2_of_3.cpp.obj"
+"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\DebugGame\AdvancedSessions\Module.AdvancedSessions.3_of_3.cpp.obj"
+"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\DebugGame\AdvancedSessions\Default.rc2.res"
+/OUT:"E:\UR_ServerTest\10SteamSessions_BehaviorTest\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\DebugGame\AdvancedSessions\UnrealEditor-AdvancedSessions-Win64-DebugGame.lib"
