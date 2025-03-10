@@ -47,6 +47,7 @@ private:
 	ModelAnimator* ModelD;
 	Model* treeS1;
 	Model* treeS2;
+	//ModelInstancing* treeS2; // 250311 테스트
 	Model* rockS;
 	Model* grassS1;
 	Model* grassS2;

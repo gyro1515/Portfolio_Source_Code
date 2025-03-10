@@ -109,6 +109,7 @@ Vector3 Terrain::Picking()
             index[3] = width * (z + 1) + x + 1;
 
             vector<VertexType> vertices = mesh->GetVertices();
+            //vector<VertexType>& vertices = mesh->GetVertices();
 
             Vector3 p[4];
             for (UINT i = 0; i < 4; i++)
@@ -180,7 +181,8 @@ bool Terrain::ComputePicking(Vector3& pos)
 void Terrain::MakeNormal()
 {
     vector<VertexType>& vertices = mesh->GetVertices();
-    vector<UINT> indices = mesh->GetIndices();
+    vector<UINT>& indices = mesh->GetIndices();
+    //vector<UINT> indices = mesh->GetIndices();
 
     for (UINT i = 0; i < indices.size() / 3; i++)
     {
@@ -206,7 +208,8 @@ void Terrain::MakeNormal()
 void Terrain::MakeTangent()
 {
     vector<VertexType>& vertices = mesh->GetVertices();
-    vector<UINT> indices = mesh->GetIndices();
+    vector<UINT>& indices = mesh->GetIndices();
+    //vector<UINT> indices = mesh->GetIndices();
 
     for (UINT i = 0; i < indices.size() / 3; i++)
     {
@@ -241,8 +244,10 @@ void Terrain::MakeTangent()
 
 void Terrain::MakeComputeData()
 {
-    vector<VertexType> vertices = mesh->GetVertices();
-    vector<UINT> indices = mesh->GetIndices();
+    //vector<VertexType> vertices = mesh->GetVertices();
+    vector<VertexType>& vertices = mesh->GetVertices();
+    //vector<UINT> indices = mesh->GetIndices();
+    vector<UINT>& indices = mesh->GetIndices();
 
     triangleSize = indices.size() / 3;
 

@@ -385,7 +385,8 @@ void BaseScene1::SetShadowModel()
 	//treeS1->SetShader(L"Light/DepthMap.hlsl");
 	treeS1->SetShader(L"Basic/Texture.hlsl");
 
-	treeS2 = new Model("Tree2");
+	//treeS2 = new Model("Tree2");
+	treeS2 = new ModelInstancing("Tree2");
 	treeS2->Scale() *= 0.01f;
 	//treeS2->SetShader(L"Light/DepthMap.hlsl");
 	treeS2->SetShader(L"Basic/Texture.hlsl");
@@ -524,6 +525,11 @@ void BaseScene1::RenderShadowModel()
 		}
 		
 	}
+	// 250311 테스트:
+	/*treeS2->GetTransforms() = LandScapeManager::Get()->GetTree2Instancing()->GetTransforms();
+	treeS2->Update();
+	treeS2->Render();*/
+
 	// 돌
 	//for (Transform* rock : LandScapeManager::Get()->GetRock1Instancing()->GetTransforms())
 	//{
