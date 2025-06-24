@@ -35,6 +35,7 @@ public:
 	FClickTest hoveredT;
 	UPROPERTY()
 	FClickTest unHoveredT;
+
 public:
 	UPROPERTY(EditAnywhere)
 	int32 myNum;

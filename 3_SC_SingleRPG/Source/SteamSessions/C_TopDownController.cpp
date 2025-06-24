@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+﻿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "C_TopDownController.h"
@@ -64,7 +64,7 @@ void AC_TopDownController::BeginPlay()
 		}
 	
 	}
-	//�κ��丮 ����
+	// 인벤토리 세팅
 	if (!InventoryC && InventoryClass)
 	{
 		InventoryC = Cast<UC_Inventory>(CreateWidget(GetWorld(), InventoryClass));

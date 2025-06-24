@@ -14,7 +14,7 @@ enum class ItemType : uint8
 {
 	Equipment,
 	Consumption,
-	Material,
+	Material
 };
 
 /** Please add a struct description */

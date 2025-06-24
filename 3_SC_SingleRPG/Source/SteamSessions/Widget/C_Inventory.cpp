@@ -63,7 +63,7 @@ void UC_Inventory::NativeOnInitialized()
 		// 아이콘 이미지, 테스트로 아이템 랜덤으로 넣어주기, 세팅은 마지막에
 		tmpS = "ItemIcon_" + FString::FromInt(i);
 		UImage* tmpI = Cast<UImage>(GetWidgetFromName(FName(tmpS)));
-		FName tmpFN = rowNames[FMath::RandRange(0, rowNames.Num() - 1)];
+		//FName tmpFN = rowNames[FMath::RandRange(0, rowNames.Num() - 1)];
 		itemIcons.Add(tmpI);
 
 		// 아이템 개수

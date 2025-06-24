@@ -16,36 +16,25 @@ UC_InventoryButton::UC_InventoryButton()
 
 void UC_InventoryButton::ReadyClick()
 {
-	if (myNum != -1)
+	if (myNum != -1 && inven)
 	{
-		if (inven)
-		{
-			clickT.Broadcast(myNum);
-		}
+		clickT.Broadcast(myNum);
 	}
 }
 
 void UC_InventoryButton::ReadyHovered()
 {
-	if (myNum != -1)
+	if (myNum != -1 && inven)
 	{
-		if (inven)
-		{
-			//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::MakeRandomColor(), TEXT("ReadyHovered"));
-			hoveredT.Broadcast(myNum);
-		}
+		hoveredT.Broadcast(myNum);
 	}
 }
 
 void UC_InventoryButton::ReadyUnHovered()
 {
-	if (myNum != -1)
+	if (myNum != -1 && inven)
 	{
-		if (inven)
-		{
-			//GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::MakeRandomColor(), TEXT("ReadyUn!Hovered"));
-			unHoveredT.Broadcast(myNum);
-		}
+		unHoveredT.Broadcast(myNum);
 	}
 }
 
