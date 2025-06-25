@@ -117,6 +117,12 @@ void AC_CharacterGenji::BeginPlay()
 		/*UKismetSystemLibrary::PrintString(GetWorld(), FString::Printf(TEXT("%s: SetWidget"), *GetActorNameOrLabel())
 		,true, true, FColor::MakeRandomColor(), 10.0f);*/
 	}
+
+	// 발사하기 위한 기본 세팅
+	// 최종 도착 거리 확인 위해 잠깐 총알 소환
+	AC_PyoChang* tmp1 = GetWorld()->SpawnActor<AC_PyoChang>(PyoChangClass);
+	pyoDistance = tmp1->totalDistance; // 속력 * 지속시간
+	tmp1->Destroy();
 }
 
 void AC_CharacterGenji::SetSkills()
@@ -441,34 +447,56 @@ FVector AC_CharacterGenji::FireReady()
 {
 	// 카메라와 발사위치까지의 거리 구하기
 	FVector CamPos = Camera->GetComponentLocation(); // 카메라 위치
-	//FVector AcPos = GetActorLocation() + GetActorForwardVector() * 75.0f; // 발사 위치
-	//FVector AcPos = GetActorTransform().TransformPosition(FVector(75.0f , 10.0f , 10.0f)); // 발사 위치
-	FVector AcPos = GetActorTransform().TransformPosition(pyoMuzzle); // 발사 위치
-	FVector tmpV = AcPos - CamPos;
-	float tmpDistance = FVector::DotProduct(Camera->GetForwardVector(), tmpV); // 발사위치와 카메라의 깊이 구하기
-
-	// 최종 도착 거리 확인 위해 잠깐 총알 소환
-	AC_PyoChang* tmp1 = GetWorld()->SpawnActor<AC_PyoChang>(PyoChangClass);
-	float tmpTotalDistance = tmp1->totalDistance; // 속력 * 지속시간
-	tmp1->Destroy();
-
+	FVector CamForward = Camera->GetForwardVector(); // 카메라 앞 단위벡터
+	FVector muzzlePos = GetActorTransform().TransformPosition(pyoMuzzle); // 발사 위치 = 총구의 월드 위치
+	FVector tmpV = muzzlePos - CamPos; // 카메라에서 총구까지의 벡터
+	float camToStartDistance = FVector::DotProduct(CamForward , tmpV); // 발사위치와 카메라의 깊이 구하기
+	// 총구가 카메라 전방으로 얼마나 떨어져 있는지(깊이)를 구함
 
 	FHitResult tmpHit;
-	FVector start = Camera->GetComponentLocation() + Camera->GetForwardVector() * tmpDistance; // 발사 위치와 같은 깊이에서 시작
-	FVector end = Camera->GetComponentLocation() + Camera->GetForwardVector() * ( tmpTotalDistance + tmpDistance ); // 위 + 총알의 최종 거리 = 끝
+	// 카메라 조준선 상의 총구 깊이 위치에 있는 점
+	FVector start = CamPos + CamForward * camToStartDistance; // 발사 위치와 같은 깊이에서 시작
+	// 총구와 Start 간의 거리
+	//float startToMz = ( start - muzzlePos ).Length();
+	float startToMz = FVector::Distance(start, muzzlePos);
+	// 피타고라스의 정리로 표창이 날아갈 직선 거리 계산
+	// 표창 비행 거리 = pyoDistance, 총구와 Start 간의 거리 = startToMz
+	float startToEndDistance = FMath::Sqrt(FMath::Square(pyoDistance) - FMath::Square(startToMz));
+	// 조준선 상 최종 목표 지점 
+	FVector end = CamPos + CamForward * ( startToEndDistance + camToStartDistance );
 
 	FCollisionQueryParams tmpCP;
 	tmpCP.AddIgnoredActor(this); // 자기 자신 제외하기, 3인칭이라 가끔 자기 자신 맞음
-	GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
-
-	FVector direction;
-	if ( tmpHit.bBlockingHit )
+	//GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
+	// 디버그용
+	bool btmpB = GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
+	float debugTime = 6.0f;
+	if ( btmpB ) // 맞았으면 디버그 라인 2개
 	{
-		direction = ( tmpHit.Location - AcPos ).GetSafeNormal();
+		DrawDebugLine(GetWorld(), start, tmpHit.Location, FColor::Red, false, debugTime, 0, 1.0f);
+		DrawDebugLine(GetWorld(), tmpHit.Location, end, FColor::Green, false, debugTime, 0, 1.0f);
 	}
 	else
 	{
-		direction = ( end - AcPos ).GetSafeNormal();
+		DrawDebugLine(GetWorld(), start, end, FColor::Green, false, debugTime , 0, 1.0f);
+	}
+	// 카메라와 발사 위치까지의 거리
+	DrawDebugLine(GetWorld(), CamPos, muzzlePos , FColor::Black, false , debugTime , 0 , 1.0f);
+	// 발사위치와 카메라의 깊이 거리
+	DrawDebugLine(GetWorld(), start , CamPos, FColor::Emerald , false , debugTime , 0 , 1.0f);
+	// 레이 캐스트 시작 위치와 발사 위치 거리
+	DrawDebugLine(GetWorld() , start , muzzlePos , FColor::Cyan , false , debugTime , 0 , 1.0f);
+	// 발사 위치부터 레이 캐스트 맞은 위치까지
+	DrawDebugLine(GetWorld() , muzzlePos , btmpB ? tmpHit.Location : end , FColor::Blue , false , debugTime , 0 , 1.0f);
+	
+	FVector direction;
+	if ( tmpHit.bBlockingHit )
+	{
+		direction = ( tmpHit.Location - muzzlePos ).GetSafeNormal();
+	}
+	else
+	{
+		direction = ( end - muzzlePos ).GetSafeNormal();
 	}
 	return direction;
 }

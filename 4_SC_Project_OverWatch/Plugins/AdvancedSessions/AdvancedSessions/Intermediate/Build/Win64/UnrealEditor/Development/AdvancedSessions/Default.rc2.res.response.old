@@ -70,5 +70,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=SerFps
-/fo "D:\SubPortfolio\Source_code\4_SC_Project_OverWatch\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Default.rc2.res"
+/fo "D:\SubPortfolio\Source_code\Portfolio_Source_Code\4_SC_Project_OverWatch\Plugins\AdvancedSessions\AdvancedSessions\Intermediate\Build\Win64\UnrealEditor\Development\AdvancedSessions\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"

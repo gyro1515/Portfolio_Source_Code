@@ -201,9 +201,12 @@ public: // 추가 캐릭터 특징
 	UPROPERTY(Replicated)
 	int32 leftPyoChangCount;
 	
+	// 표창 발사 관련
 	// 머즐
 	UPROPERTY(EditAnywhere)
 	FVector pyoMuzzle;
+	// 표창 날아가는 거리
+	float pyoDistance = 0.0f;
 
 	// 위젯
 	UPROPERTY(EditAnywhere , Category = "Widget")
