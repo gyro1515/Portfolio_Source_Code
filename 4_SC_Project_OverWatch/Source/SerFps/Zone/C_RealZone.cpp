@@ -123,7 +123,7 @@ FTransform AC_RealZone::GenerateSmallTransform(FTransform original)
 
 	float randomR = FMath::FRandRange(0.0f, (original.GetScale3D().X-SmallScale.X) * 100.0f);
 	
-	//float randomT = FMath::FRandRange(0.0f, 3.14f);
+	//float randomT = FMath::FRandRange(0.0f, 2 * 3.14f);
 	float randomT = FMath::FRandRange(0.0f, 360.0f);
 
 	//SmallLocation = original.GetLocation() + FVector(randomR * cos(randomT), randomR * sin(randomT), 0.0f);
