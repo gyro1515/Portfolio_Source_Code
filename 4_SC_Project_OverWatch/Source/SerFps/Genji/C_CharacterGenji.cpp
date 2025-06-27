@@ -467,27 +467,27 @@ FVector AC_CharacterGenji::FireReady()
 
 	FCollisionQueryParams tmpCP;
 	tmpCP.AddIgnoredActor(this); // 자기 자신 제외하기, 3인칭이라 가끔 자기 자신 맞음
-	//GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
-	// 디버그용
-	bool btmpB = GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
-	float debugTime = 6.0f;
-	if ( btmpB ) // 맞았으면 디버그 라인 2개
-	{
-		DrawDebugLine(GetWorld(), start, tmpHit.Location, FColor::Red, false, debugTime, 0, 1.0f);
-		DrawDebugLine(GetWorld(), tmpHit.Location, end, FColor::Green, false, debugTime, 0, 1.0f);
-	}
-	else
-	{
-		DrawDebugLine(GetWorld(), start, end, FColor::Green, false, debugTime , 0, 1.0f);
-	}
-	// 카메라와 발사 위치까지의 거리
-	DrawDebugLine(GetWorld(), CamPos, muzzlePos , FColor::Black, false , debugTime , 0 , 1.0f);
-	// 발사위치와 카메라의 깊이 거리
-	DrawDebugLine(GetWorld(), start , CamPos, FColor::Emerald , false , debugTime , 0 , 1.0f);
-	// 레이 캐스트 시작 위치와 발사 위치 거리
-	DrawDebugLine(GetWorld() , start , muzzlePos , FColor::Cyan , false , debugTime , 0 , 1.0f);
-	// 발사 위치부터 레이 캐스트 맞은 위치까지
-	DrawDebugLine(GetWorld() , muzzlePos , btmpB ? tmpHit.Location : end , FColor::Blue , false , debugTime , 0 , 1.0f);
+	GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
+	//// 디버그용
+	//bool btmpB = GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
+	//float debugTime = 6.0f;
+	//if ( btmpB ) // 맞았으면 디버그 라인 2개
+	//{
+	//	DrawDebugLine(GetWorld(), start, tmpHit.Location, FColor::Red, false, debugTime, 0, 1.0f);
+	//	DrawDebugLine(GetWorld(), tmpHit.Location, end, FColor::Green, false, debugTime, 0, 1.0f);
+	//}
+	//else
+	//{
+	//	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, debugTime , 0, 1.0f);
+	//}
+	//// 카메라와 발사 위치까지의 거리
+	//DrawDebugLine(GetWorld(), CamPos, muzzlePos , FColor::Black, false , debugTime , 0 , 1.0f);
+	//// 발사위치와 카메라의 깊이 거리
+	//DrawDebugLine(GetWorld(), start , CamPos, FColor::Emerald , false , debugTime , 0 , 1.0f);
+	//// 레이 캐스트 시작 위치와 발사 위치 거리
+	//DrawDebugLine(GetWorld() , start , muzzlePos , FColor::Cyan , false , debugTime , 0 , 1.0f);
+	//// 발사 위치부터 레이 캐스트 맞은 위치까지
+	//DrawDebugLine(GetWorld() , muzzlePos , btmpB ? tmpHit.Location : end , FColor::Blue , false , debugTime , 0 , 1.0f);
 	
 	FVector direction;
 	if ( tmpHit.bBlockingHit )

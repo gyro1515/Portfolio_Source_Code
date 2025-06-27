@@ -64,9 +64,9 @@
 #define UE_BUILD_DEVELOPMENT 1
 #define UE_IS_ENGINE_MODULE 0
 #define UE_DISABLE_INLINE_GEN_CPP 0
-#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 1
-#define UE_PROJECT_NAME SteamSessions
-#define UE_TARGET_NAME SteamSessionsEditor
+#define UE_ENABLE_INCLUDE_ORDER_DEPRECATED_IN_5_1 0
+#define UE_PROJECT_NAME SerFps
+#define UE_TARGET_NAME SerFpsEditor
 #define WITH_ADVANCED_SESSIONS 1
 #define UE_MODULE_NAME "AdvancedSessions"
 #define UE_PLUGIN_NAME "AdvancedSessions"

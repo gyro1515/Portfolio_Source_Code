@@ -79,40 +79,43 @@ void AC_GenjiSkill_E::OnHitBeginOverlap(UPrimitiveComponent* OverlappedComponent
 	//reflectBullet->SetActive(false);
 	
 	// 카메라와 발사위치까지의 거리 구하기
-	FVector CamPos = player->Camera->GetComponentLocation();
-	FVector AcPos = SweepResult.Location;
-	FVector tmpV = AcPos - CamPos;
-	float tmpDistance = ( FVector::DotProduct(tmpV , player->Camera->GetForwardVector()) );
+	FVector CamPos = player->Camera->GetComponentLocation(); // 카메라 위치
+	FVector CamForward = player->Camera->GetForwardVector(); // 카메라 앞 단위벡터
+	FVector muzzlePos = SweepResult.Location; // 발사 위치 = 맞은 위치
+	FVector tmpV = muzzlePos - CamPos; // 카메라에서 총구까지의 벡터
+	float camToStartDistance = FVector::DotProduct(CamForward , tmpV); // 발사위치와 카메라의 깊이 구하기
+	// 총구가 카메라 전방으로 얼마나 떨어져 있는지(깊이)를 구함
 
-	/*UKismetSystemLibrary::PrintString(GetWorld() , FString::Printf(TEXT("Dot: %f") , tmpDistance)
-		, true , true , FColor::MakeRandomColor() , 10.0f);*/
-
-	/*UNiagaraFunctionLibrary::SpawnSystemAtLocation(GetWorld() , SkillEffectN , 
-		SweepResult.Location, player->GetActorRotation(),skillScale);*/
-	float tmpTotalDistance = tmpBullet->totalDistance;
-	// 조준점으로 반사하기
 	FHitResult tmpHit;
-	FVector start = player->Camera->GetComponentLocation() + player->Camera->GetForwardVector() * tmpDistance;
-	FVector end = player->Camera->GetComponentLocation() + player->Camera->GetForwardVector() * ( tmpTotalDistance + tmpDistance );
-	//GetWorld()->LineTraceSingleByChannel(tmpHit, start, end, ECollisionChannel::ECC_Camera);
-	//if (tmpHit.bBlockingHit)
-	// 
+	// 카메라 조준선 상의 총구 깊이 위치에 있는 점
+	FVector start = CamPos + CamForward * camToStartDistance; // 발사 위치와 같은 깊이에서 시작
+	// 총구와 Start 간의 거리
+	//float startToMz = ( start - muzzlePos ).Length();
+	float startToMz = FVector::Distance(start , muzzlePos);
+	// 피타고라스의 정리로 표창이 날아갈 직선 거리 계산
+	// 표창 비행 거리 = pyoDistance, 총구와 Start 간의 거리 = startToMz
+	float pyoDistance = tmpBullet->totalDistance;
+	float startToEndDistance = FMath::Sqrt(FMath::Square(pyoDistance) - FMath::Square(startToMz));
+	// 조준선 상 최종 목표 지점 
+	FVector end = CamPos + CamForward * ( startToEndDistance + camToStartDistance );
+
 	FCollisionQueryParams tmpCP;
-	tmpCP.AddIgnoredActor(player);
-	if ( GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP))
+	tmpCP.AddIgnoredActor(player); // 자기 자신 제외하기, 3인칭이라 가끔 자기 자신 맞음
+	bool btmpB = GetWorld()->LineTraceSingleByChannel(tmpHit , start , end , ECollisionChannel::ECC_Camera , tmpCP);
+	if ( btmpB )
 	{
 		FVector direction = (tmpHit.Location - SweepResult.Location ).GetSafeNormal();
 		//reflectBullet->FirePyoChang(direction);
-		MulReflectPyo(tmpBullet->GetClass() , FTransform(FRotator(tmpBullet->GetActorRotation()) , SweepResult.Location , tmpBullet->GetActorScale()) , direction , tmpDistance);
+		MulReflectPyo(tmpBullet->GetClass() , FTransform(FRotator(tmpBullet->GetActorRotation()) , muzzlePos , tmpBullet->GetActorScale()) , direction , 0);
 		/*UKismetSystemLibrary::PrintString(GetWorld(), FString::Printf(TEXT("%s: SkillE_Reflect_Hit__%s"), *GetActorNameOrLabel(), *tmpHit.GetActor()->GetActorNameOrLabel())
 			, true, true, FColor::MakeRandomColor(), 10.0f);*/
 		
 	}
 	else
 	{
-		FVector direction = ( end - SweepResult.Location ).GetSafeNormal();
+		FVector direction = ( end - muzzlePos ).GetSafeNormal();
 		//reflectBullet->FirePyoChang(direction);
-		MulReflectPyo(tmpBullet->GetClass() , FTransform(FRotator(tmpBullet->GetActorRotation()) , SweepResult.Location, tmpBullet->GetActorScale()) , direction , tmpDistance);
+		MulReflectPyo(tmpBullet->GetClass() , FTransform(FRotator(tmpBullet->GetActorRotation()) , muzzlePos , tmpBullet->GetActorScale()) , direction , 0);
 
 		/*UKismetSystemLibrary::PrintString(GetWorld(), FString::Printf(TEXT("%s: SkillE_Reflect_NotHit"), *GetActorNameOrLabel())
 			, true, true, FColor::MakeRandomColor(), 10.0f);*/
@@ -122,7 +125,27 @@ void AC_GenjiSkill_E::OnHitBeginOverlap(UPrimitiveComponent* OverlappedComponent
 		UKismetSystemLibrary::PrintString(GetWorld(), FString::Printf(TEXT("%s: BulletRep"), *GetActorNameOrLabel())
 			, true, true, FColor::MakeRandomColor(), 10.0f);
 	}*/
-	
+	// 디버그용
+	//float debugTime = 6.0f;
+	//if ( btmpB ) // 맞았으면 디버그 라인 2개
+	//{
+	//	DrawDebugLine(GetWorld(), start, tmpHit.Location, FColor::Red, false, debugTime, 0, 1.0f);
+	//	DrawDebugLine(GetWorld(), tmpHit.Location, end, FColor::Green, false, debugTime, 0, 1.0f);
+	//}
+	//else
+	//{
+	//	DrawDebugLine(GetWorld(), start, end, FColor::Green, false, debugTime , 0, 1.0f);
+	//}
+	//// 카메라와 발사 위치까지의 거리
+	//DrawDebugLine(GetWorld(), CamPos, muzzlePos , FColor::Black, false , debugTime , 0 , 1.0f);
+	//// 발사위치와 카메라의 깊이 거리
+	//DrawDebugLine(GetWorld(), start , CamPos, FColor::Emerald , false , debugTime , 0 , 1.0f);
+	//// 레이 캐스트 시작 위치와 발사 위치 거리
+	//DrawDebugLine(GetWorld() , start , muzzlePos , FColor::Cyan , false , debugTime , 0 , 1.0f);
+	//// 발사 위치부터 레이 캐스트 맞은 위치까지
+	//DrawDebugLine(GetWorld() , muzzlePos , btmpB ? tmpHit.Location : end , FColor::Blue , false , debugTime , 0 , 1.0f);
+
+
 	switch ( hitCount %= 3 )
 	{
 	case 0:
